@@ -634,4 +634,11 @@ img {
     overflow: hidden;
     object-fit: cover;
 }
-/* ===== branding section start here ===== */
+/* ===== branding section end here ===== */
+/* ===== footer section start here ===== */
+footer{
+    position: relative;
+    background-color: #0c3543;
+    padding: 80px 0;
+}
+/* ===== footer section end here ===== */
