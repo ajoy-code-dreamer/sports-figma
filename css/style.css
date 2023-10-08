@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 /* ===== variable css ===== */
 :root {
     /* === font === */
@@ -140,23 +141,26 @@ a {
 .adventure_content_wrapper {
     margin-right: 70px;
 }
-.adventure_content_wrapper h5 {
+.common_section_title {
     color: #14b9f1;
     font-family: var(--secondary-font);
     font-size: 30px;
     font-weight: var(--font-regular);
     line-height: var(--line-h-normal);
 }
-.adventure_content_wrapper h2 {
+.common_section_heading {
     color: var(--black-clr);
     font-family: var(--primary-font);
     font-size: 54px;
     font-weight: var(--font-bold);
     line-height: var(--line-h-normal);
     position: relative;
+}
+.adventure_content_wrapper .common_section_heading,
+#activities .common_section_heading {
     margin-bottom: 60px;
 }
-.adventure_content_wrapper h2::after {
+.common_section_heading::after {
     position: absolute;
     content: "";
     width: 80px;
@@ -165,12 +169,14 @@ a {
     left: 0;
     bottom: -25px;
 }
-.adventure_content_wrapper p {
+.common_section_details {
     color: var(--black-clr);
     font-family: var(--primary-font);
     font-size: 18px;
     font-weight: var(--font-regular);
     line-height: var(--line-h-normal);
+}
+.adventure_content_wrapper .common_section_details {
     padding-bottom: 40px;
 }
 .adventure_content_wrapper ul li {
@@ -270,3 +276,92 @@ a {
 }
 
 /* ===== counter section end here ===== */
+/* ===== activities section start here ===== */
+#activities {
+    padding: 100px 0;
+    background-color: #0c3543;
+    position: relative;
+}
+#activities .common_section_title {
+    color: var(--primary-clr);
+}
+#activities .common_section_heading {
+    color: var(--white-clr);
+}
+#activities .common_section_heading::after {
+    background-color: var(--white-clr);
+}
+#activities .common_section_details {
+    color: var(--white-clr);
+    padding: 65px;
+}
+.activities_cards_wrapper {
+    row-gap: 50px;
+    padding-bottom: 80px;
+}
+.activities_card_inner_wrapper {
+    width: 424px;
+}
+.activities_card_img {
+    width: 100%;
+    height: 365px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.activities_card_img img {
+    width: 100%;
+    height: 100%;
+}
+.activities_card_content {
+    padding: 27px;
+    width: 100%;
+    background-color: #0f4152;
+    border-radius: 0 0 10px 10px;
+    color: var(--white-clr);
+    text-align: center;
+    font-family: var(--primary-font);
+    line-height: var(--line-h-normal);
+}
+.activities_card_content h3 {
+    font-size: 30px;
+    font-weight: var(--font-bold);
+}
+.activities_card_content p {
+    font-size: 18px;
+    font-weight: var(--font-regular);
+}
+.activities_heading h2 {
+    color: var(--white-clr);
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    font-weight: 400;
+    line-height: var(--line-h-normal);
+}
+.activities_shape_1 {
+    position: absolute;
+    width: auto;
+    bottom: 255px;
+    left: 40px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.activities_shape_1 img {
+    width: 100%;
+    height: 100%;
+}
+.activities_shape_2 {
+    position: absolute;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.activities_shape_2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== activities section end here ===== */
