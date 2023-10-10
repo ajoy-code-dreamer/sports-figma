@@ -84,7 +84,7 @@ img {
     left: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.224);
-    z-index: 99999999;
+    z-index: 9999;
 }
 .navbar-brand {
     width: 225px;
@@ -105,6 +105,13 @@ img {
 .nav-link:hover {
     color: var(--primary-clr);
 }
+.nav-link:focus{
+    color: var(--primary-clr);
+}
+.nav-link.show:focus{
+    color: var(--primary-clr);
+}
+
 /* ===== navbar css end here ===== */
 /* ===== banner section start here ===== */
 #banner {
