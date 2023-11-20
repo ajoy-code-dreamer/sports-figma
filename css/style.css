@@ -134,6 +134,8 @@ img {
     padding-bottom: 55px;
 }
 .banner_btn {
+    display: flex;
+    justify-content: center;
     column-gap: 40px;
 }
 .banner_shape {
