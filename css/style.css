@@ -38,7 +38,7 @@ h4,
 h5,
 h6,
 p {
-    line-height: 1.8;
+    line-height: 0.8;
 }
 ul,
 ol,
@@ -66,7 +66,7 @@ img {
     font-family: var(--primary-font);
     color: var(--white-clr);
     font-weight: var(--font-bold);
-    padding: 20px 51px;
+    padding: 20px 50px;
     background-color: var(--primary-clr);
     border-radius: 4px;
     transition: var(--transition);
@@ -342,7 +342,7 @@ img {
 }
 .activities_shape_1 {
     position: absolute;
-    width: auto;
+    width: 100%;
     bottom: 255px;
     left: 40px;
     overflow: hidden;
@@ -350,7 +350,7 @@ img {
 }
 .activities_shape_2 {
     position: absolute;
-    width: auto;
+    width: 100%;
     bottom: 0;
     left: 0;
     overflow: hidden;

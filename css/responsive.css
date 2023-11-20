@@ -1,31 +1,184 @@
 /* ======== responsive css ======== */
 /* ========================= device (xs 0 > 576) ========================= */
 @media (max-width: 575.98px) {
-	
+	/* === navbar === */
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 100px;
+        height: 45px;
+    }
+    .navbar-toggler {
+        padding: 5px 10px;
+        color: var(--white-clr) ;
+        border: none;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 14px;
+        font-weight: var(--font-semibold);
+        padding: 5px 0;
+    }
+    .navbar .common_btn{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar .common_btn a {
+        padding: 10px 40px ;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .navbar .dropdown-menu{
+        text-align: center;
+    }
+    .dropdown-item {
+        padding: 0;
+        font-size: 14px;
+    }
+	/* === navbar === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
 /* ========================= device (sm 576 > 768) ========================= */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	/* === navbar === */
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 100px;
+        height: 45px;
+    }
+    .navbar-toggler {
+        padding: 5px 10px;
+        color: var(--white-clr) ;
+        border: none;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 14px;
+        font-weight: var(--font-semibold);
+        padding: 5px 0;
+    }
+    .navbar .common_btn{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar .common_btn a {
+        padding: 10px 40px ;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .navbar .dropdown-menu{
+        text-align: center;
+    }
+    .dropdown-item {
+        padding: 0;
+        font-size: 14px;
+    }
+	/* === navbar === */
+
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
 /* ========================= device (md 768 > 992) ========================= */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	/* === navbar === */
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 130px;
+        height: 55px;
+    }
+    .navbar-toggler {
+        padding: 10px 10px;
+        color: var(--white-clr) ;
+        border: none;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 16px;
+        font-weight: var(--font-semibold);
+        padding: 5px 0;
+    }
+    .navbar .common_btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .navbar .common_btn a {
+        padding: 10px 40px ;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .navbar .dropdown-menu{
+        text-align: center;
+    }
+    .dropdown-item {
+        padding: 0;
+        font-size: 16px;
+    }
+	/* === navbar === */
+
 }
 /* ========================= device (md 768 > 992) ========================= */
 
 /* ========================= device (lg 992 > 1200) ========================= */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+	/* === navbar === */
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 170px;
+        height: 60px;
+    }
+    .navbar-nav {
+        column-gap: 15px;
+    }
+    .nav-link {
+        font-size: 16px;
+        font-weight: var(--font-semibold);
+        padding: 5px 0;
+    }
+    .navbar .common_btn a {
+        padding: 10px 30px ;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .navbar .dropdown-item {
+        font-size: 16px;
+    }
+    /* === navbar === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
 /* ========================= device (xl 1200 > 1400) ========================= */
 @media (min-width: 1200px) and (max-width: 1400px) {
-	
+	/* === navbar === */
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        width: 190px;
+    }
+    .navbar-nav {
+        column-gap: 20px;
+    }
+    .navbar .common_btn a {
+        padding: 15px 40px ;
+        justify-content: center;
+        font-size: 16px;
+    }
+    /* === navbar === */
 }
 /* ========================= device (xl 1200 > 1400) ========================= */
 /* ========================= device (xxl 1400 >>) ========================= */
